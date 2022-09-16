@@ -18,4 +18,8 @@ module.exports = function (app) {
 	app.get('/contact.html', function (req, res) {
 		res.render('contact');
 	});
+
+	app.get('/nothing.html', function (req, res) {
+		res.render('nothing');
+	});
 };
